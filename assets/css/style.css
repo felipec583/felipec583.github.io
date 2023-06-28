@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;800&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Main settings */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #ffffff;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+/* Header */
+
+/* Nav */
+nav {
+  padding: 2em 0;
+  background-color: #f2f2f2;
+  border-top: #df4c73 solid;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.name {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.name:hover {
+  color: #df4c73;
+}
+li a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #000000;
+  font-weight: 800;
+}
+
+a:hover {
+  color: #df4c73;
+}
+
+a:active {
+  color: #f39c12;
+}
+
+/* Hero */
