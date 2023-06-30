@@ -6,13 +6,17 @@
     <title>Felipe Castillo</title>
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/da9c1aae97.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
       <nav>
         <ul>
           <ul>
-            <li class="name">Felipe Castillo</li>
+            <i class="fa-regular fa-lightbulb fa-4x" style="color: #000000"></i>
           </ul>
           <li><a href="">Inicio</a></li>
           <li><a href="">Formación</a></li>
@@ -20,11 +24,131 @@
           <li><a href="">Contacto</a></li>
         </ul>
       </nav>
-      <section class="hero"></section>
+      <section class="hero">
+        <div class="pic-cont hero-item">
+          <img src="./assets/img/profilepic.jpg" alt="profile picture" />
+        </div>
+        <div class="personal-i hero-item">
+          <h1>Felipe Castillo</h1>
+          <div class="hero-info">
+            <div class="hero-info-i">
+              <p class="first-p">
+                En busca de crecimiento profesional, aprendiendo cada día y
+                afrontando nuevos retos.
+                <img src="" alt="img" />
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
     <main>
-      <section></section>
+      <section class="educacion">
+        <h2>Educación</h2>
+        <div class="educacion-flex">
+          <div class="e-flex-item">
+            <h3>Academia de Magia de Luminaris</h3>
+            <p>
+              Adquirió un amplio conocimiento en el dominio de la magia
+              elemental. Se especializó en el manejo de la magia de la Luz,
+              aprendiendo a conjurar poderosos hechizos luminosos y a canalizar
+              energía pura.
+            </p>
+          </div>
+          <div class="e-flex-item">
+            <h3>Orden de los Guardianes de la Luz</h3>
+            <p>
+              Como miembro destacado de la Orden de los Guardianes de la Luz,
+              Aelarion recibió un entrenamiento riguroso en artes marciales y
+              estrategias de combate. Perfeccionó su habilidad con la espada,
+              convirtiéndose en un espadachín excepcionalmente hábil
+            </p>
+          </div>
+          <div class="e-flex-item">
+            <h3>Maestro de Magia</h3>
+            <p>
+              Aelarion tuvo la oportunidad de profundizar en las artes mágicas
+              más complejas y antiguas. Estudió los textos sagrados y los
+              grimorios perdidos, descubriendo secretos ocultos y aprendiendo
+              rituales arcanos de gran poder.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="experiencia">
+        <h2>Experiencia</h2>
+        <div class="exp-flex-cont">
+          <div class="exp-flex-item">
+            <p>
+              Lideró y participó en numerosas batallas épicas en la protección
+              de los reinos encantados contra las fuerzas oscuras.
+            </p>
+            <img src="" alt="img" />
+          </div>
+          <div class="exp-flex-item">
+            <p>
+              Forjó alianzas estratégicas con otros defensores de la luz para
+              enfrentar desafíos y amenazas sobrenaturales.
+            </p>
+            <img src="" alt="img" />
+          </div>
+          <div class="exp-flex-item">
+            <p>
+              Exploró tierras peligrosas en busca de artefactos mágicos y
+              conocimientos antiguos para preservar la magia ancestral.
+            </p>
+            <img src="" alt="img" />
+          </div>
+        </div>
+      </section>
+      <section class="portfolio">
+        <h2>Portafolio</h2>
+        <div class="portfolio-flex">
+          <div class="port-item"></div>
+          <div class="port-item"></div>
+          <div class="port-item"></div>
+          <div class="port-item"></div>
+        </div>
+      </section>
+      <section class="contacto">
+        <h3>Escríbeme</h3>
+        <form>
+          <div class="flex-item">
+            <label for="nombre"
+              >Nombre
+              <input type="text" id="nombre" name="nombre" required />
+            </label>
+          </div>
+          <div class="flex-item">
+            <label for="email"
+              >Correo Electrónico
+              <input type="email" id="email" name="nombre" required />
+            </label>
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            maxlength="200"
+          ></textarea>
+          <a href="#top">Enviar</a>
+        </form>
+      </section>
     </main>
-    <footer></footer>
+    <hr noshade="0" />
+    <footer>
+      <p>Felipe Castillo</p>
+
+      <div class="social-flex">
+        <a href="">
+          <img src="./assets/img/github.svg" alt="github-icon" />
+        </a>
+        <a href="">
+          <img src="./assets/img/linkedin.svg" alt="linkedin-icon" />
+        </a>
+      </div>
+      <p>Todos los Derechos Reservados 2023</p>
+    </footer>
   </body>
 </html>
