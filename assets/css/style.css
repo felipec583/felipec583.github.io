@@ -152,7 +152,6 @@ a:active {
 }
 
 .e-flex-item {
-  /* flex: 1; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -223,7 +222,7 @@ a:active {
   display: flex;
   flex-direction: column;
   width: 200px;
-  transition: transform 0.2s;
+  transition: transform 0.5s;
   justify-content: center;
 }
 
@@ -239,8 +238,12 @@ a:active {
 /* Form */
 
 .contacto {
-  padding: 5em 0 3em 0;
+  padding: 1em 0 5em 0;
   background-color: #21ceb1;
+}
+
+.contacto h2 {
+  padding: 3em 0 0 0;
 }
 
 form {
