@@ -41,11 +41,11 @@ h3 {
 
 /* Nav */
 nav {
-  padding: 1.5em 0;
+  padding: 0.5em 0;
   background-color: #f2f2f2;
   border-top: #5fd39f solid;
-  border-bottom-left-radius: 15%;
-  border-bottom-right-radius: 15%;
+  position: fixed;
+  width: 100%;
 }
 
 nav > ul {
@@ -82,7 +82,7 @@ a:active {
 .hero {
   display: flex;
   padding: 5em 7em;
-  background: #adeee3;
+  background: #d6edff;
 }
 
 .hero-item {
@@ -104,10 +104,11 @@ a:active {
 }
 
 .hero-info-i {
-  flex: 1;
+  justify-content: space-around;
   padding: 1em;
   display: flex;
   flex-direction: column;
+  gap: 5em;
 }
 
 .hero-info-i p {
@@ -123,7 +124,7 @@ a:active {
 }
 
 .first-p::first-letter {
-  font-size: 3rem;
+  font-size: 5rem;
   font-weight: 800;
 }
 
@@ -147,16 +148,24 @@ a:active {
   flex-direction: column;
   justify-content: center;
   border: 5px solid rgb(0, 0, 0);
-  border-radius: 30%;
-  padding: 0em 3em 5em 3em;
+  border-radius: 90%;
+  padding: 3em 3em 3em 3em;
   margin: 0 1em;
+  gap: 50px;
 }
 
-.e-flex-item p {
+.e-flex-item div {
   font-size: 1.5rem;
   text-align: justify;
   line-height: 1.3em;
   color: rgb(0, 0, 0);
+
+  align-self: flex-end;
+}
+
+.e-flex-item img {
+  width: 300px;
+  align-self: flex-end;
 }
 /* Experiencia */
 
@@ -173,34 +182,31 @@ a:active {
   padding: 1em;
   display: flex;
   flex-direction: column;
+
+  align-items: center;
 }
 
 .exp-flex-item p {
-  text-align: justify;
+  text-align: center;
   line-height: 1.5em;
   font-size: 1.5em;
 }
 
-.exp-flex-item p::first-letter {
-  font-weight: 800;
-  font-size: 2em;
-}
-
 .exp-flex-item img {
-  width: 35%;
+  width: 120px;
   margin-top: 1em;
-  align-self: center;
 }
 
 /* Portfolio */
 
 .portfolio {
-  background-color: #7cfef0;
+  background-color: #f2f2f2;
   padding: 3em 0 3em 0;
 }
 
 .portfolio-flex {
   display: flex;
+  justify-content: space-around;
 }
 
 /* Form */
@@ -219,7 +225,6 @@ form {
 .flex-item {
   margin-top: 1em;
   width: 100%;
-  
 }
 
 label {
@@ -243,7 +248,7 @@ textarea {
 form a {
   text-decoration: none;
   padding: 1em;
-  
+
   margin-top: 1em;
   border-radius: 30%;
   color: white;
@@ -254,7 +259,6 @@ form a:hover {
   background-color: black;
   color: white;
 }
-
 
 /* Footer */
 
@@ -271,13 +275,10 @@ footer p {
   display: flex;
   width: 100%;
   justify-content: center;
-  margin-bottom:1em ;
-  
+  margin-bottom: 1em;
 }
 
 .social-flex img {
   width: 50px;
   margin-left: 1em;
-  
-  
 }

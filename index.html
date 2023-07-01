@@ -12,18 +12,19 @@
     ></script>
   </head>
   <body>
-    <header>
-      <nav>
+    <nav>
+      <ul>
         <ul>
-          <ul>
-            <i class="fa-regular fa-lightbulb fa-4x" style="color: #000000"></i>
-          </ul>
-          <li><a href="">Inicio</a></li>
-          <li><a href="">Formación</a></li>
-          <li><a href="">Portafolio</a></li>
-          <li><a href="">Contacto</a></li>
+          <i class="fa-regular fa-lightbulb fa-4x" style="color: #000000"></i>
         </ul>
-      </nav>
+        <li><a href="">Inicio</a></li>
+        <li><a href="#educacion">Educación</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#portfolio">Portafolio</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <header>
       <section class="hero">
         <div class="pic-cont hero-item">
           <img src="./assets/img/profilepic.jpg" alt="profile picture" />
@@ -32,10 +33,13 @@
           <h1>Felipe Castillo</h1>
           <div class="hero-info">
             <div class="hero-info-i">
+              <img
+                src="./assets/img/e-learning vector.svg"
+                alt="e learning icon"
+              />
               <p class="first-p">
                 En busca de crecimiento profesional, aprendiendo cada día y
                 afrontando nuevos retos.
-                <img src="" alt="img" />
               </p>
             </div>
           </div>
@@ -43,74 +47,86 @@
       </section>
     </header>
     <main>
-      <section class="educacion">
+      <section class="educacion" id="educacion">
         <h2>Educación</h2>
         <div class="educacion-flex">
           <div class="e-flex-item">
-            <h3>Academia de Magia de Luminaris</h3>
-            <p>
-              Adquirió un amplio conocimiento en el dominio de la magia
-              elemental. Se especializó en el manejo de la magia de la Luz,
-              aprendiendo a conjurar poderosos hechizos luminosos y a canalizar
-              energía pura.
-            </p>
+            <h3>Bootcamp DSL</h3>
+            <div>
+              <p>Aprendí tecnologías front-end y back-end</p>
+            </div>
+            <img
+              src="./assets/img/DEASFIO LATAM LOGO.png"
+              alt="desafiolatam logo"
+            />
           </div>
           <div class="e-flex-item">
-            <h3>Orden de los Guardianes de la Luz</h3>
-            <p>
-              Como miembro destacado de la Orden de los Guardianes de la Luz,
-              Aelarion recibió un entrenamiento riguroso en artes marciales y
-              estrategias de combate. Perfeccionó su habilidad con la espada,
-              convirtiéndose en un espadachín excepcionalmente hábil
-            </p>
+            <h3>TOP Bootcamp</h3>
+            <div>
+              <p>Aprendizaje de los fundamentos de la programación web</p>
+            </div>
+            <img src="./assets/img/top logo.png" alt="TOP logo" />
           </div>
           <div class="e-flex-item">
-            <h3>Maestro de Magia</h3>
-            <p>
-              Aelarion tuvo la oportunidad de profundizar en las artes mágicas
-              más complejas y antiguas. Estudió los textos sagrados y los
-              grimorios perdidos, descubriendo secretos ocultos y aprendiendo
-              rituales arcanos de gran poder.
-            </p>
+            <h3>Curso programación Coursera</h3>
+            <div>
+              <p>
+                Aprendizaje de los conceptos básicos y lógica de programación en
+                la plataforma en Coursa
+              </p>
+            </div>
+            <img src="./assets/img/coursera logo.svg" alt="coursera logo" />
           </div>
         </div>
       </section>
-      <section class="experiencia">
+      <section class="experiencia" id="experiencia">
         <h2>Experiencia</h2>
         <div class="exp-flex-cont">
           <div class="exp-flex-item">
-            <p>
-              Lideró y participó en numerosas batallas épicas en la protección
-              de los reinos encantados contra las fuerzas oscuras.
-            </p>
-            <img src="" alt="img" />
+            <p>Creación de página web con HTML</p>
+            <img src="./assets/img/html.svg" alt="html logo" />
           </div>
           <div class="exp-flex-item">
-            <p>
-              Forjó alianzas estratégicas con otros defensores de la luz para
-              enfrentar desafíos y amenazas sobrenaturales.
-            </p>
-            <img src="" alt="img" />
+            <p>Creación de página web con CSS</p>
+            <img src="./assets/img/css.svg" alt="css logo" />
           </div>
           <div class="exp-flex-item">
-            <p>
-              Exploró tierras peligrosas en busca de artefactos mágicos y
-              conocimientos antiguos para preservar la magia ancestral.
-            </p>
-            <img src="" alt="img" />
+            <p>Desarrollo de web responsive con Bootstrap</p>
+            <img src="./assets/img/bootstrap.svg" alt="bootstrap logo" />
           </div>
         </div>
       </section>
-      <section class="portfolio">
+      <section class="portfolio" id="portfolio">
         <h2>Portafolio</h2>
         <div class="portfolio-flex">
-          <div class="port-item"></div>
-          <div class="port-item"></div>
-          <div class="port-item"></div>
-          <div class="port-item"></div>
+          <div class="port-item">
+            <a href="https://felipec583.github.io/CV/" target="_blank">CV</a>
+          </div>
+          <div class="port-item">
+            <a href="https://felipec583.github.io/coffee-page/" target="_blank"
+              >Coffee Page</a
+            >
+          </div>
+          <div class="port-item">
+            <a href="https://felipec583.github.io/cuppon/" target="_blank"
+              >Cuppon</a
+            >
+          </div>
+          <div class="port-item">
+            <a href="https://felipec583.github.io/fdsw-github/" target="_blank"
+              >Forked page</a
+            >
+          </div>
+          <div class="port-item">
+            <a
+              href="https://felipec583.github.io/iguana-landing/"
+              target="_blank"
+              >Iguana page</a
+            >
+          </div>
         </div>
       </section>
-      <section class="contacto">
+      <section class="contacto" id="contacto">
         <h3>Escríbeme</h3>
         <form>
           <div class="flex-item">
