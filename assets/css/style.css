@@ -3,9 +3,14 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 /* Main settings */
+
+hr {
+  margin: 0;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -135,6 +140,10 @@ a:active {
   padding: 3em 0 3em 0;
 }
 
+.educacion h2 {
+  padding: 2em 0 0 0;
+}
+
 .educacion-flex {
   display: flex;
   justify-content: space-evenly;
@@ -143,13 +152,12 @@ a:active {
 }
 
 .e-flex-item {
-  flex: 1;
+  /* flex: 1; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  border: 5px solid rgb(0, 0, 0);
-  border-radius: 90%;
-  padding: 3em 3em 3em 3em;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 0em 3em 3em 3em;
   margin: 0 1em;
   gap: 50px;
 }
@@ -159,7 +167,6 @@ a:active {
   text-align: justify;
   line-height: 1.3em;
   color: rgb(0, 0, 0);
-
   align-self: flex-end;
 }
 
@@ -171,7 +178,7 @@ a:active {
 
 .experiencia {
   background-color: #d6edff;
-  padding: 3em 5em;
+  padding: 7em 5em 5em 5em;
 }
 
 .exp-flex-cont {
@@ -182,7 +189,6 @@ a:active {
   padding: 1em;
   display: flex;
   flex-direction: column;
-
   align-items: center;
 }
 
@@ -201,19 +207,40 @@ a:active {
 
 .portfolio {
   background-color: #f2f2f2;
-  padding: 3em 0 3em 0;
+  padding: 4em 0 5em 0;
 }
 
+.portfolio h2 {
+  padding: 1em 0 2em 0;
+}
 .portfolio-flex {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.port-item {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  transition: transform 0.2s;
+  justify-content: center;
+}
+
+.port-item p {
+  text-align: center;
+}
+
+.port-item:hover {
+  transform: scale(1.2);
+  font-weight: 900;
 }
 
 /* Form */
 
 .contacto {
-  padding: 2em 0 3em 0;
-  background-color: #adeee3;
+  padding: 5em 0 3em 0;
+  background-color: #21ceb1;
 }
 
 form {
@@ -248,7 +275,6 @@ textarea {
 form a {
   text-decoration: none;
   padding: 1em;
-
   margin-top: 1em;
   border-radius: 30%;
   color: white;
